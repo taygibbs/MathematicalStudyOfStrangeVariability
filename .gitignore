@@ -1,3 +1,10 @@
+#Custom Ignoring
+~OpticalCoverageVisualizations__26088.twbr
+Visualizations/
+plottingBackup.py
+readingTest.py
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
