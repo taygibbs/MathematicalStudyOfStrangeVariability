@@ -472,25 +472,7 @@ def alpha_Testing(I01, I02, I1, I2, Sv1, Sv2, Spectral_Cf1, Spectral_Cf2, graph)
         plt.show()
         plt.savefig(os.getcwd() + '/AlphaChangePlots/' + title + ').png',dpi= 500)
 
-#Everything above has been created with respect to ONLY Coverage Fraction vs Optical Depth. Below is the start of Optical Depth vs Coverage Fraction
-
-def tau_Cf_grapher(data, alpha_group = 'no'):
+#Everything above has been created with respect to ONLY Coverage Fraction vs Optical Depth.
 
 
-
-    for index, row in data.iterrows():
-        #Inner Initialization
-        alpha = row['alpha']
-        inv_alpha = 1 / alpha
-        Spectral_Cf1 = row['Spec_Cf1']
-        Spectral_Cf2 = row['Spec_Cf2']
-        #Spectral_value_Cf2Cf1 = row['Spec_Cf2Cf1']
-        Sv1 = row['minCov1']
-        Sv2 = row['minCov2']
-        mintau = row['minOpt']  
-
-        Cf = np.arange(0.1,1.1,0.02)
-
-        for i in range(1,52):
-            tau1 =  
         
